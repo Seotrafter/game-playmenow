@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Teşekkür ederiz! Color Merge Puzzle oyunu başvurunuz için teşekkürler.">
+    <meta name="keywords" content="Color Merge Puzzle, teşekkür, form gönderimi, renk bulmaca oyunu, türkiye, oyun incelemesi">
+    <meta name="author" content="Color Merge Puzzle Türkiye">
+    <title>Color Merge Puzzle - Teşekkürler</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.webp" type="image/x-icon">
+    <style>
+        /* Styles for Thank You Page */
+        .thankyou-section {
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(106, 61, 232, 0.05) 0%, rgba(255, 87, 87, 0.05) 100%);
+            padding: 80px 0;
+        }
+
+        .thank-you-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            padding: 50px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .thank-you-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #6A3DE8, #FF5757, #FFC107, #2196F3, #4CAF50);
+        }
+
+        .thank-you-icon {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 30px;
+            background: linear-gradient(135deg, #6A3DE8, #FF5757);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .thank-you-icon::before, .thank-you-icon::after {
+            content: '';
+            position: absolute;
+            background: white;
+        }
+
+        .thank-you-icon::before {
+            width: 30px;
+            height: 15px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            transform: rotate(-45deg);
+            bottom: 35px;
+            left: 28px;
+        }
+
+        .thank-you-icon::after {
+            width: 50px;
+            height: 15px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            transform: rotate(-45deg);
+            bottom: 30px;
+            left: 32px;
+        }
+
+        .thank-you-title {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        .thank-you-message {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 40px;
+            line-height: 1.7;
+        }
+
+        .return-btn {
+            display: inline-block;
+            padding: 14px 30px;
+            background: linear-gradient(135deg, #6A3DE8 0%, #FF5757 100%);
+            color: white;
+            font-weight: 600;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 10px 20px rgba(106, 61, 232, 0.3);
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .return-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(106, 61, 232, 0.4);
+        }
+    </style>
+</head>
+<body>
+<!-- Header part start -->
+<header class="main_menu home_menu">
+    <div class="container">
+        <nav class="navbar">
+            <a class="navbar-brand" href="/">
+                <img src="img/favicon.webp" alt="Color Merge Puzzle">
+                <span>Color Merge Puzzle</span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <div class="hamburger"></div>
+            </label>
+
+            <div class="nav-wrapper">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Hakkımızda</a>
+                </li>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- Header part end -->
+
+<!-- Thank You Section Start -->
+<section class="thankyou-section">
+    <div class="thank-you-container">
+        <div class="thank-you-icon"></div>
+        <h1 class="thank-you-title">Teşekkür Ederiz!</h1>
+        <p class="thank-you-message">Mesajınız başarıyla gönderildi. Color Merge Puzzle ekibi en kısa sürede sizinle iletişime geçecektir. Renk dünyamıza gösterdiğiniz ilgi için teşekkür ederiz.</p>
+        <a href="/" class="return-btn">Ana Sayfaya Dön</a>
+    </div>
+</section>
+<!-- Thank You Section End -->
+
+<!-- Footer Start -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="img/favicon.webp" alt="Color Merge Puzzle">
+                <span>Color Merge Puzzle</span>
+            </div>
+            <div class="footer-links">
+                <h3>Hızlı Bağlantılar</h3>
+                <ul>
+                    <li><a href="/">Ana Sayfa</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="privacy.html">Gizlilik Politikası</a></li>
+                    <li><a href="cookies.html">Cookies Politikası</a></li>
+                    <li><a href="terms.html">Şartlar ve koşullar</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>İletişim</h3>
+                <p>E-posta: info@game-playmenow.com</p>
+                <p>Telefon: +90 546 721 3895</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Color Merge Puzzle | game-playmenow.com. Tüm hakları saklıdır.</p>
+            <div class="cookies-notice">
+                <a href="privacy.html">Çerez Politikası</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
+
+
+</body>
+</html>
